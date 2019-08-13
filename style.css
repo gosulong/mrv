@@ -1,0 +1,62 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.pidor {
+    width: 600px;
+    /* height: 600px; */
+    background-color: brown;
+    /* padding: 10px; */
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+.shuravi {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    /* margin: 10px; */
+}
+.pidor2 {
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+}
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    position: absolute;
+    top: 120px;
+    left: 80px;
+}
+
+.button:hover {
+    padding: 10px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.button:hover p {
+    color: brown;
+}
